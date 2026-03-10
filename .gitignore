@@ -1,0 +1,7 @@
+/.vs
+/.idea
+
+# ignore build outputs
+
+/*/bin
+/*/obj
