@@ -1,4 +1,6 @@
-﻿using System.Runtime.InteropServices;
+﻿#if WINDOWS
+
+using System.Runtime.InteropServices;
 
 internal class Program
 {
@@ -13,7 +15,7 @@ internal class Program
     private static extern bool MoveFile(string lpExistingFileName, string lpNewFileName);
 
 
-    static void Main(string[] args) 
+    static void Main(string[] args)
     {
         string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
 
@@ -92,3 +94,5 @@ internal class Program
 
 
 }
+
+#endif

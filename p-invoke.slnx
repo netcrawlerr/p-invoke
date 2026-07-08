@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="DirectoryOperations/DirectoryOperations.csproj" />
   <Project Path="MessageBox/MessageBox.csproj" />
+  <Project Path="MessageBoxLinux/MessageBoxLinux.csproj" />
 </Solution>
